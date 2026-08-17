@@ -1,0 +1,43 @@
+{
+  "n_selections": 3373,
+  "n_participants": 47,
+  "n_sessions": 115,
+  "n_files": 662,
+  "n_unique_contexts": 951,
+  "n_unique_phrases": 289,
+  "by_study": {
+    "StudyB": 846,
+    "StudyF": 1067,
+    "StudyL": 990,
+    "StudyN": 470
+  },
+  "by_condition": {
+    "CB": 1176,
+    "CBCol": 330,
+    "Dry": 236,
+    "Dyn": 359,
+    "DynBigram": 348,
+    "RC": 330,
+    "Static": 360,
+    "Wet": 234
+  },
+  "archive_accuracy": 0.8191520901274829,
+  "offline_neural_accuracy": 0.718055143788912,
+  "median_flashes": 126.0,
+  "decoder_auc_median": 0.795097705550356,
+  "calibration_fallback_sessions": 2,
+  "skipped": [
+    {
+      "session": "bigP3BCI-data/StudyB/B_01/SE002/Test/CB/B_01_SE002_CB_Test10.edf",
+      "reason": "target code out of range: 38"
+    },
+    {
+      "session": "bigP3BCI-data/StudyB/B_03/SE001/Test/CB/B_03_SE001_CB_Test12.edf",
+      "reason": "missing channels in /Volumes/Extreme SSD/Mimic-IV/study_bigp3_als_calibration/data/source_cache/bigP3BCI-data/StudyB/B_03/SE001/Test/CB/B_03_SE001_CB_Test12.edf: 9_6_6"
+    },
+    {
+      "session": "bigP3BCI-data/StudyB/B_03/SE001/Test/CB/B_03_SE001_CB_Test16.edf",
+      "reason": "missing channels in /Volumes/Extreme SSD/Mimic-IV/study_bigp3_als_calibration/data/source_cache/bigP3BCI-data/StudyB/B_03/SE001/Test/CB/B_03_SE001_CB_Test16.edf: 9_6_6"
+    }
+  ]
+}
