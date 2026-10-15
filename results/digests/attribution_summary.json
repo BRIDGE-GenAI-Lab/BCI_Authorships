@@ -1,0 +1,214 @@
+{
+  "rows": 421625,
+  "selections": 3373,
+  "beta_grid": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "primary_beta": 1.0,
+  "by_model": {
+    "EleutherAI/pythia-12b": {
+      "ncf_mean": 0.9216,
+      "phantom_agreement": 0.0448,
+      "prior_capture": 0.021,
+      "fused_accuracy": 0.7418,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.105
+    },
+    "Qwen/Qwen2.5-1.5B": {
+      "ncf_mean": 0.9205,
+      "phantom_agreement": 0.0448,
+      "prior_capture": 0.0196,
+      "fused_accuracy": 0.7433,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0943
+    },
+    "Qwen/Qwen2.5-14B": {
+      "ncf_mean": 0.9186,
+      "phantom_agreement": 0.0421,
+      "prior_capture": 0.0222,
+      "fused_accuracy": 0.7379,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.11
+    },
+    "Qwen/Qwen2.5-32B": {
+      "ncf_mean": 0.9204,
+      "phantom_agreement": 0.0421,
+      "prior_capture": 0.021,
+      "fused_accuracy": 0.7391,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0996
+    },
+    "Qwen/Qwen2.5-3B": {
+      "ncf_mean": 0.9221,
+      "phantom_agreement": 0.035,
+      "prior_capture": 0.0282,
+      "fused_accuracy": 0.7249,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0543
+    },
+    "Qwen/Qwen3.5-27B": {
+      "ncf_mean": 0.9363,
+      "phantom_agreement": 0.0362,
+      "prior_capture": 0.0163,
+      "fused_accuracy": 0.7379,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0652
+    },
+    "Qwen/Qwen3.6-35B-A3B": {
+      "ncf_mean": 0.9284,
+      "phantom_agreement": 0.0409,
+      "prior_capture": 0.016,
+      "fused_accuracy": 0.743,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0961
+    },
+    "allenai/OLMo-2-1124-7B-Instruct": {
+      "ncf_mean": 0.9013,
+      "phantom_agreement": 0.0454,
+      "prior_capture": 0.0311,
+      "fused_accuracy": 0.7323,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0883
+    },
+    "deepseek-ai/DeepSeek-V2-Lite": {
+      "ncf_mean": 0.9248,
+      "phantom_agreement": 0.0465,
+      "prior_capture": 0.0222,
+      "fused_accuracy": 0.7424,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.1008
+    },
+    "google/gemma-2-27b": {
+      "ncf_mean": 0.9418,
+      "phantom_agreement": 0.0359,
+      "prior_capture": 0.0154,
+      "fused_accuracy": 0.7385,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0554
+    },
+    "google/gemma-2-2b-it": {
+      "ncf_mean": 0.912,
+      "phantom_agreement": 0.0338,
+      "prior_capture": 0.0362,
+      "fused_accuracy": 0.7157,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0566
+    },
+    "google/gemma-2-9b": {
+      "ncf_mean": 0.9039,
+      "phantom_agreement": 0.0492,
+      "prior_capture": 0.0329,
+      "fused_accuracy": 0.7344,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.102
+    },
+    "google/gemma-4-12b-it": {
+      "ncf_mean": 0.9269,
+      "phantom_agreement": 0.0296,
+      "prior_capture": 0.0291,
+      "fused_accuracy": 0.7186,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0006
+    },
+    "google/recurrentgemma-2b": {
+      "ncf_mean": 0.942,
+      "phantom_agreement": 0.0385,
+      "prior_capture": 0.0145,
+      "fused_accuracy": 0.7421,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0477
+    },
+    "gpt2": {
+      "ncf_mean": 0.934,
+      "phantom_agreement": 0.0382,
+      "prior_capture": 0.019,
+      "fused_accuracy": 0.7373,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.129
+    },
+    "gpt2-large": {
+      "ncf_mean": 0.9327,
+      "phantom_agreement": 0.0397,
+      "prior_capture": 0.0187,
+      "fused_accuracy": 0.7391,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.142
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "ncf_mean": 0.9222,
+      "phantom_agreement": 0.0424,
+      "prior_capture": 0.0231,
+      "fused_accuracy": 0.7373,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.1183
+    },
+    "mistralai/Mistral-7B-v0.3": {
+      "ncf_mean": 0.9325,
+      "phantom_agreement": 0.0454,
+      "prior_capture": 0.0202,
+      "fused_accuracy": 0.7433,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.1248
+    },
+    "mistralai/Mixtral-8x7B-v0.1": {
+      "ncf_mean": 0.9296,
+      "phantom_agreement": 0.0457,
+      "prior_capture": 0.0202,
+      "fused_accuracy": 0.7436,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.1118
+    },
+    "ngram5": {
+      "ncf_mean": 0.8611,
+      "phantom_agreement": 0.094,
+      "prior_capture": 0.0077,
+      "fused_accuracy": 0.8043,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.3089
+    },
+    "ngram5_kn": {
+      "ncf_mean": 0.8732,
+      "phantom_agreement": 0.0842,
+      "prior_capture": 0.0053,
+      "fused_accuracy": 0.7969,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.3
+    },
+    "ngram5_wiki_kn": {
+      "ncf_mean": 0.8878,
+      "phantom_agreement": 0.0789,
+      "prior_capture": 0.0039,
+      "fused_accuracy": 0.7931,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.252
+    },
+    "openai/gpt-oss-20b": {
+      "ncf_mean": 0.9317,
+      "phantom_agreement": 0.0353,
+      "prior_capture": 0.0228,
+      "fused_accuracy": 0.7305,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0895
+    },
+    "state-spaces/mamba-2.8b-hf": {
+      "ncf_mean": 0.925,
+      "phantom_agreement": 0.0421,
+      "prior_capture": 0.0199,
+      "fused_accuracy": 0.7403,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.1307
+    },
+    "uniform": {
+      "ncf_mean": 1.0,
+      "phantom_agreement": 0.0,
+      "prior_capture": 0.0,
+      "fused_accuracy": 0.7181,
+      "neural_accuracy": 0.7181,
+      "prior_accuracy": 0.0637
+    }
+  }
+}
